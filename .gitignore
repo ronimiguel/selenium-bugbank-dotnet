@@ -5,6 +5,8 @@ obj/
 *.user
 *.suo
 *.sln.docstates
+
+# Ignorar arquivos de relatórios
 Relatorios/
 
 # Ignorar arquivos específicos do .NET
