@@ -5,6 +5,7 @@ obj/
 *.user
 *.suo
 *.sln.docstates
+Relatorios/
 
 # Ignorar arquivos específicos do .NET
 *.dll
