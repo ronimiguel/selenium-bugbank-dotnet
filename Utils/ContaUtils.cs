@@ -66,7 +66,7 @@ public class ContaUtils : Locators
     int indiceDoCifrao = dadosSaldo.IndexOf("$");
 
     // +2 é usado para pular o caractere '$' e o espaço em branco
-    string saldoAtualNumerico = dadosSaldo.Substring(indiceDoCifrao + 2);
+    string saldoAtualNumerico = dadosSaldo[(indiceDoCifrao + 2)..];
 
     // Alterar formato brasileiro de moeda para padrão numérico com ponto
     string saldoAtualComPonto = saldoAtualNumerico.Replace(".", ""); // Remove pontos
