@@ -1,0 +1,25 @@
+# Ignorar arquivos e pastas gerados pelo Visual Studio
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+# Ignorar arquivos específicos do .NET
+*.dll
+*.exe
+*.pdb
+*.log
+*.config
+*.csv
+*.ncrunch*
+*.sln.ide
+*.suo
+*.user
+*.userprefs
+*.mdf
+*.ldf
+[Tt]est[Rr]esult*/
+[Bb]in/
+[Oo]bj/
